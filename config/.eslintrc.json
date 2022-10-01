@@ -32,11 +32,11 @@
         "block-scoped-var": "error",
         "block-spacing": "error",
         "brace-style": "warn",
-        "camelcase": ["error", { "allow": ["^UNSAFE_"] }],
+        "camelcase": ["warn", { "allow": ["^UNSAFE_"] }],
         "capitalized-comments": "error",
         "class-methods-use-this": "error",
         "comma-dangle": ["warn", {
-            "arrays": "never",
+            "arrays": "only-multiline",
             "objects": "only-multiline",
             "imports": "never",
             "exports": "never",
