@@ -1,0 +1,30 @@
+// =================================================================================
+// Linting and Formatting Config for Visual Studio Code
+// Copyright (C) 2022 choozn <guide@choozn.dev>
+// Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+// =================================================================================
+
+{
+  // Editor
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "files.autoSave": "onFocusChange",
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false,
+
+  // ES-Lint
+  "eslint.alwaysShowStatus": true,
+  "eslint.run": "onSave",
+  "eslint.format.enable": true,
+
+  // Prettier
+  "prettier.printWidth": 120,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true
+}

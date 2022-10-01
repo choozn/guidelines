@@ -1,0 +1,10 @@
+// =================================================================================
+// Extension Recommendations Config for Visual Studio Code
+// Copyright (C) 2022 choozn <guide@choozn.dev>
+// Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+// =================================================================================
+
+{
+  "recommendations": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
+  "unwantedRecommendations": ["rvest.vs-code-prettier-eslint", "mblode.pretty-formatter", "hookyqr.beautify"]
+}
