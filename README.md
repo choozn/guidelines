@@ -85,8 +85,7 @@ On the other hand, you should not completely avoid comments. They can be fully v
 - Inline comments deserve a dedicated line. Do not put comments behind your code, but instead place them above the line(s) they describe.
 
 ```ts
-if (example) {
-  // This is an example for a bad comment
+if (example) { // This is an example for a bad comment
   doSomething();
 }
 
