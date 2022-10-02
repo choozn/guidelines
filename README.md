@@ -14,7 +14,8 @@ There are two factors in play. The **human style** and the **format style**.
 These guidelines in text form will focus on the human style. The format style can be ensured by using the attached configs for formatting programs such as Prettier. (→ CLI)
 
 ### How to use
-To install the guidelines in your project you can use the CLI tool, that comes with them. 
+
+To install the guidelines in your project you can use the CLI tool, that comes with them.
 They can be installed using the easy to use command `yarn create guide` in your project.
 
 ### Lets get started!
@@ -80,7 +81,7 @@ On the other hand, you should not completely avoid comments. They can be fully v
 - When you start writing a comment, think about renaming the variable/function/class first. Only write the comment, if you come to the conclusion, that additional information has to be provided for the reader to understand the code.
   This does not apply when the comment is used as documentation for the IDE, for example JSDoc.
 
-- Avoid paraphrasing the code. Whenever you find yourself paraphrasing, question yourself, whether a comment is really needed or if the code does not already speak for itself. Paraphrasing comments often only misleads.
+- Avoid paraphrasing the code. Whenever you find yourself paraphrasing, question yourself, whether a comment is really needed or if the code does not already speak for itself. Paraphrasing comments often only mislead.
 
 - Explaining variables is **never** a good idea. Almost always, the solution is to rename the variable.
 
