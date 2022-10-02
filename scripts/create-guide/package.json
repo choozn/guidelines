@@ -1,6 +1,6 @@
 {
   "name": "create-guide",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A quick and easy CLI tool to add a style guide, formatting and liting config to your project.",
   "main": "index.js",
   "bin": "index.js",
@@ -12,8 +12,9 @@
   "author": "choozn",
   "repository": "https://github.com/choozn/guidelines",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
+    "chalk": "^5.0.1",
     "inquirer": "^9.1.2"
-  },
-  "type": "module"
+  }
 }
