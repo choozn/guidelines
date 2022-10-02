@@ -11,7 +11,11 @@ Clean code leads to code that is both easier to maintain and easier to understan
 ### Factors
 
 There are two factors in play. The **human style** and the **format style**.
-These guidelines in text form will focus on the human style. The format style can be ensured by using the attached configs for formatting programs such as Prettier.
+These guidelines in text form will focus on the human style. The format style can be ensured by using the attached configs for formatting programs such as Prettier. (→ CLI)
+
+### How to use
+To install the guidelines in your project you can use the CLI tool, that comes with them. 
+They can be installed using the easy to use command `yarn create guide` in your project.
 
 ### Lets get started!
 
