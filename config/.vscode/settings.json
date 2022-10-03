@@ -7,7 +7,7 @@
 
   // Formatter
   "[javascript]": {
-     "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -21,17 +21,23 @@
     "source.organizeImports",
     "source.formatDocument",
     "source.fixAll.eslint"
-],
-  "javascript.validate.enable": false,
-  "typescript.validate.enable": false,
+  ],
+  "javascript.validate.enable": true,
+  "typescript.validate.enable": true,
   "files.eol": "\n",
 
   // ES-Lint
   "eslint.alwaysShowStatus": true,
-  "eslint.run": "onSave",
+  "eslint.run": "onType",
   "eslint.format.enable": true,
-  "eslint.validate": [ "javascript", "javascriptreact", "html", "typescriptreact" ],
-
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html"
+  ],
+  
   // Prettier
   "prettier.printWidth": 120,
   "prettier.jsxSingleQuote": true,
