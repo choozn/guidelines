@@ -267,7 +267,7 @@
         ],
         "quotes": [
             "warn",
-            "single"
+            "double"
         ],
         "radix": "warn",
         "require-atomic-updates": "off",
