@@ -15,8 +15,8 @@
   "semi": true,
   "singleQuote": false,
   "tabWidth": 2,
+  "tabSize": 2,
   "trailingComma": "es5",
   "useTabs": false,
-  "vueIndentScriptAndStyle": false,
-  "parser": "typescript"
+  "vueIndentScriptAndStyle": false
 }

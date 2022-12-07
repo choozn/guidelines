@@ -91,10 +91,7 @@
         "id-length": "error",
         "id-match": "error",
         "implicit-arrow-linebreak": "off",
-        "indent": [
-            "warn",
-            2
-        ],
+        "indent": "off",
         "init-declarations": "error",
         "jsx-quotes": "error",
         "key-spacing": "error",
@@ -122,8 +119,7 @@
         "max-statements-per-line": "error",
         "multiline-comment-style": "error",
         "multiline-ternary": [
-            "error",
-            "always-multiline"
+            "off"
         ],
         "new-cap": [
             "error",
@@ -132,7 +128,7 @@
             }
         ],
         "new-parens": "error",
-        "newline-per-chained-call": "error",
+        "newline-per-chained-call": "off",
         "no-alert": "error",
         "no-array-constructor": "error",
         "no-await-in-loop": "error",
@@ -171,7 +167,7 @@
         "no-multi-spaces": "error",
         "no-multi-str": "error",
         "no-multiple-empty-lines": "error",
-        "no-negated-condition": "warn",
+        "no-negated-condition": "off",
         "no-nested-ternary": "error",
         "no-new": "error",
         "no-new-func": "error",
