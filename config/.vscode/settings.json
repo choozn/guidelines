@@ -18,6 +18,9 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
 
 
   // Editor
@@ -27,7 +30,8 @@
   "editor.codeActionsOnSave": [
     "source.organizeImports",
     "source.formatDocument",
-    "source.fixAll.eslint"
+    "source.fixAll.eslint",
+    "source.fixAll.stylelint"
   ],
   "javascript.validate.enable": true,
   "typescript.validate.enable": true,

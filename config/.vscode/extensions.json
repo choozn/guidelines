@@ -5,6 +5,6 @@
 // =================================================================================
 
 {
-  "recommendations": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
+  "recommendations": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode", "stylelint.vscode-stylelint"],
   "unwantedRecommendations": ["rvest.vs-code-prettier-eslint", "mblode.pretty-formatter", "hookyqr.beautify"]
 }
