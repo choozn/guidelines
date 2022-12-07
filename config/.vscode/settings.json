@@ -1,10 +1,10 @@
-{
-  // =================================================================================
-  // Linting and Formatting Config for Visual Studio Code
-  // Copyright (C) 2022 choozn <guide@choozn.dev>
-  // Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
-  // =================================================================================
+// =================================================================================
+// Linting and Formatting Config for Visual Studio Code
+// Copyright (C) 2022 choozn <guide@choozn.dev>
+// Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+// =================================================================================
 
+{
   // Formatter
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
