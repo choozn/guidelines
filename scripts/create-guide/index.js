@@ -44,7 +44,7 @@ const install = (installationType) =>
   new Promise((resolve, reject) => {
     console.log(chalk.green('! ') + chalk.bold('Starting the installation...'));
 
-    const npm = ['npm', ['install', '-D', 'eslint', '@typescript-eslint/eslint-plugin']];
+    const npm = ['npm', ['install', '-D', 'eslint', '@typescript-eslint/eslint-plugin', 'stylelint', 'stylelint-config-idiomatic-order']];
     const guidelines = ['npx', ['degit', 'choozn/guidelines/README.md', 'STYLEGUIDE.md', '--force']];
     const configuration = ['npx', ['degit', 'choozn/guidelines/config', '.', '--force']];
 

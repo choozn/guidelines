@@ -1,6 +1,6 @@
 {
   "name": "create-guide",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A quick and easy CLI tool to add a style guide, formatting and liting config to your project.",
   "main": "index.js",
   "bin": "index.js",
